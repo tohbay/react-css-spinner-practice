@@ -4,17 +4,35 @@
   "description": "Practice and coding along react project lifecycle tutorial",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint **/*.js",
+    "lint:fix": "prettier-eslint '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tohbay/react-css-spinner-practice.git"
   },
-  "keywords": ["react", "css", "spinner", "practice", "code-along"],
+  "keywords": [
+    "react",
+    "css",
+    "spinner",
+    "practice",
+    "code-along"
+  ],
   "author": "tohbay",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tohbay/react-css-spinner-practice/issues"
   },
-  "homepage": "https://github.com/tohbay/react-css-spinner-practice#readme"
+  "homepage": "https://github.com/tohbay/react-css-spinner-practice#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier-eslint": "^13.0.0",
+    "prettier-eslint-cli": "^5.0.1"
+  }
 }
